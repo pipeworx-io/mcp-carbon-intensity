@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-carbon-intensity",
+  "version": "0.1.0",
+  "description": "UK National Grid Carbon Intensity MCP.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "carbon-intensity"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-carbon-intensity"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

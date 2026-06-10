@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/carbon-intensity",
+  "title": "Carbon Intensity",
+  "description": "UK National Grid Carbon Intensity MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/carbon-intensity",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-carbon-intensity",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/carbon-intensity/mcp"
+    }
+  ]
+}
